@@ -197,7 +197,7 @@ public class RippleLayout extends RelativeLayout {
      * @param visibility
      */
     public void setCenterVisibility(boolean visibility){
-        
+
     }
 
 
