@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleLayout">
+        <!-- ripple 波纹 的 颜色-->
+        <attr name="rippleColor" format="color"></attr>
+        <!-- ripple 波纹 的个数-->
+        <attr name="rippleCount" format="integer"></attr>
+
+        <!-- ripple 波纹 的周期时长-->
+        <attr name="rippleDuration" format="integer"></attr>
+
+        <!-- ripple 波纹 的类型-->
+        <attr name="rippleType" format="enum">
+
+            <!-- ripple 波纹 实心-->
+            <enum name="ripple_fill_type" value="0"></enum>
+
+            <!-- ripple 波纹 环形-->
+            <enum name="ripple_stroke_type" value="1"></enum>
+        </attr>
+
+        <!-- ripple 波纹 的放大倍数 需要保证RippleLayout的宽高要大于或等于 rippleRadius* 2 * rippleScale -->
+        <attr name="rippleScale" format="float"></attr>
+
+        <!-- ripple 波纹 的起始半径-->
+        <attr name="rippleRadius" format="dimension"></attr>
+
+        <!-- ripple 波纹 是环形的时候  指定的环形宽度-->
+        <attr name="rippleStrokeWidth" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
